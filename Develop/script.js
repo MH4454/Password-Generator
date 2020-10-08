@@ -1,3 +1,4 @@
+//All the characters needed for a password
 let uniqueCharacters = [
 '@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')','(','}','{',']','[','~','-','_', '.'
 ];
@@ -10,8 +11,14 @@ let upperCase = [
 ];
 let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
+//All the questions needed for users
+let confirmUniqueCharacters = confirm("Click ok to add special characters")
 
+let confirmLowerCase = confirm("Click ok to add lowercase letters")
 
+let confirmUpperCase = confirm("Click ok to add UPPERCASE LETTERS")
+
+let confirmNumbers = confirm("Click ok to add numbers")
 
 
 
