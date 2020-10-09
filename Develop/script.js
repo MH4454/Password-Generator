@@ -1,16 +1,22 @@
-//All the characters needed for a password
-let uniqueCharacters = [
-'@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')','(','}','{',']','[','~','-','_', '.'
-];
-let lowerCase = [
-'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x',
-'y','z'
-];
-let upperCase = [
-'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
-];
-let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+//All getFunctions have Charcode in which im retrieving the numbers, lowercase, and uppercase
+function getRandomLower () {
+  return String.fromCharCode(Math.floor(Math.random()* 26) + 97);
+}
+function getRandomUpper () {
+  return String.fromCharCode(Math.floor(Math.random()* 26) + 65);
+}
+function getRandomNumber () {
+  return String.fromCharCode(Math.floor(Math.random()* 10) + 48);
+}
+function getRandomSymbol () {
+  const specialCharacters = [
+    '@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')','(','}','{',']','[','~','-','_', '.'
+    ];
+  return specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
+}
+console.log(getRandomSymbol(), getRandomNumber(),getRandomLower(),getRandomUpper())
 
+function getPasswordConditions (){
 //All the questions needed for users
 let confirmUniqueCharacters = confirm("Click ok to add special characters")
 
@@ -20,12 +26,9 @@ let confirmUpperCase = confirm("Click ok to add UPPERCASE LETTERS")
 
 let confirmNumbers = confirm("Click ok to add numbers")
 
-
-
-
-
-
-
+let passwordLength = parseInt(
+  prompt("How long would you like you new password"));
+}
 
 
 
