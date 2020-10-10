@@ -1,5 +1,5 @@
  Link to the website https://mh4454.github.io/Password-Generator/
- <iframe src="https://drive.google.com/file/d/1W7avuB0XfVZ1IiWyn4GmrYXnxfCFIPJh/preview" width="640" height="480"></iframe>
+ ![demo gif](Assets/Images/website-demo.gif)
  
  # 03 JavaScript: Password Generator
 
