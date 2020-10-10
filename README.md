@@ -1,5 +1,7 @@
  Link to the website https://mh4454.github.io/Password-Generator/
- ![demo gif](Assets/Images/website-demo.gif)
+
+
+ ![demo gif](Assets/website-demo.gif)
  
  # 03 JavaScript: Password Generator
 
